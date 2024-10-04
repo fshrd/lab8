@@ -8,5 +8,9 @@
     end
   else
     vis := False;
-  print(vis)
+  
+  if vis = True then
+    print('Количество дней в году: 366')
+  else
+    print('Количество дней в году: 365')
 end.
